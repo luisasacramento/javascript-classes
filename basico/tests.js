@@ -27,10 +27,12 @@ console.log(varA, varB, varC)
 
 
 //Outra Forma
-let varA = 'a'; //b 
-let varB = 'b'; //c
-let varC = 'c';//a
 
-[varA, varB, varC] = [varB, varC, varA]
 
-console.log(varA, varB, varC)
+// let varA = 'a'; //b 
+// let varB = 'b'; //c
+// let varC = 'c';//a
+
+// [varA, varB, varC] = [varB, varC, varA]
+
+// console.log(varA, varB, varC)
