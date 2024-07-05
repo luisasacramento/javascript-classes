@@ -8,17 +8,24 @@
 </head>
 
 <body>
+    <h1>O seu número é <span id="numero-titulo"></span></h1>
+    <div id="texto">Texto</div>
+    
+    
 
-    <script>
+
+
+    <script src="scriptNumbers.js">
+
+        //usado para o exercio de strings
         const nome = prompt('Digite seu nome: ')
-        
-        // let segundaLetra = nome[1];
-        // let indiceLetraA = nome.indexOf('a');
-        // let ultimoIndiceA = nome.lastIndexOf('a');
-        // let ultimasTres = nome.slice(-3)
-        // let palavras = nome.split(' ');
-        // let upper = nome.toUpperCase();
-        // let down = nome.toLowerCase();
+        let segundaLetra = nome[1];
+        let indiceLetraA = nome.indexOf('a');
+        let ultimoIndiceA = nome.lastIndexOf('a');
+        let ultimasTres = nome.slice(-3)
+        let palavras = nome.split(' ');
+        let upper = nome.toUpperCase();
+        let down = nome.toLowerCase();
 
         document.body.innerHTML += `O seu nome é: <strong>${nome}</strong><br />`;
         document.body.innerHTML += `O seu nome tem : <strong>${nome.length} letras</strong><br />`;
@@ -30,6 +37,7 @@
         document.body.innerHTML += `As palavras do seu nome são: <strong>${nome.split(' ')}</strong><br />`
         document.body.innerHTML += `Seu nome com letras maiúsculas: <strong>${nome.toUpperCase()}</strong><br />`
         document.body.innerHTML += `Seu nome com letras minúsculas: <strong>${nome.toLowerCase()}</strong><br />`
+        
 
     </script>
 
