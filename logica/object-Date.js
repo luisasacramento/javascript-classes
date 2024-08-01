@@ -15,6 +15,9 @@ function formataData(data){
     return `${dia}/${mes}/${ano} ${hora}:${min}:${seg}`
 }
 
-const data = new Date();
+const data = new Date('2024-07-24 00:00:00');
 const dataBrasil = formataData(data);
 console.log(dataBrasil);
+
+
+
